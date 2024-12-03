@@ -1,0 +1,53 @@
+.a{
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border: 5px solid red;
+    margin: 15px;
+   }
+
+   #a{
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border: 5px solid black;
+    box-sizing:border-box ;
+   }
+
+   .b,
+   .c{
+    width: 200px;
+    margin: 20px;
+    border: 3px solid yellow;
+    display: inline-block;
+       }
+
+    #parent{
+        height: 500px;
+        width: 500px;
+        background-color: aqua;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border: 5px solid yellow;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }   
+    #child{
+        width: 200pxx;
+        height: 200px;
+        background-color: blue;
+        color:white;
+        text-align: center; 
+        line-height: 200px;
+    }
+
+    .box1{
+        margin-top: 30px;
+        border:2px solid pink;
+       
+    }
+    .box2{
+        margin-bottom: 30px;
+        border:2px solid pink;
+    }
